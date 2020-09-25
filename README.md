@@ -12,15 +12,15 @@ A simple standard for the transmission of person, location, device, and other co
 | person.dob                  | User data of birth in YYYYMMDD                  | string    | 20100123         |
 | person.hairColor            | User hair color                                 | string    | consider using brown,blonde,bald,black,auburn,red,gray,white,other but dyed hair could also be red,green,purple,orange,etc |
 | person.smile                | Whether the person has a smile                  | boolean   | Use confidence not value |
-| person.facialHair           | Whether the person has facial hair              |           | Use condidence not value |
-| person.facialHair.moustache | Whether the person has a moustache              |           | Use condidence not value |
-| person.facialHair.beard     | Whether the person has a beard                  |           | Use condidence not value |
-| person.facialHair.sideburns | Whether the person has sideburns                |           | Use condidence not value |
-| person.glasses              | Whether the person has glasses                  |           | Use condidence not value |
-| person.glasses.sun          | Whether the person has sun glasses              |           | Use condidence not value |
-| person.glasses.reading      | Whether the person has reading glasses          |           | Use condidence not value |
-| person.makeup.eye           | Whether the person has eye makeup               |           | Use condidence not value |
-| person.makeup.lip           | Whether the person has lipstick                 |           | Use condidence not value |
+| person.facialHair           | Whether the person has facial hair              |           | Use confidence not value |
+| person.facialHair.moustache | Whether the person has a moustache              |           | Use confidence not value |
+| person.facialHair.beard     | Whether the person has a beard                  |           | Use confidence not value |
+| person.facialHair.sideburns | Whether the person has sideburns                |           | Use confidence not value |
+| person.glasses              | Whether the person has glasses                  |           | Use confidence not value |
+| person.glasses.sun          | Whether the person has sun glasses              |           | Use confidence not value |
+| person.glasses.reading      | Whether the person has reading glasses          |           | Use confidence not value |
+| person.makeup.eye           | Whether the person has eye makeup               |           | Use confidence not value |
+| person.makeup.lip           | Whether the person has lipstick                 |           | Use confidence not value |
 | person.emotion.anger        | Confidence the person is angry                  | string    |                  |
 | person.emotion.contempt     | Confidence the person has contempt              | string    |                  |
 | person.emotion.disgust      | Confidence the person is disgusted              | string    |                  |
@@ -40,5 +40,6 @@ A simple standard for the transmission of person, location, device, and other co
 | person.phone.mobile         | User mobile phone                               | string    |                  |   
 | person.phone.home           | User home phone                                 | string    |                  | 
 | person.phone.work           | User work phone                                 | string    |                  |
+
 
 
